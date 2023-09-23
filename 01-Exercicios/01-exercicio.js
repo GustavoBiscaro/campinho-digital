@@ -26,3 +26,30 @@ programa
 
 
 */
+
+/*
+
+programa
+{
+  funcao inicio()
+  {
+    inteiro contador = 1
+    real numero = 1 // Inicializando com um resolveria
+    real total = 1
+
+    enquanto (contador <= 8)
+    {
+      escreva("Digite o número " + contador + ": ")
+      leia(numero)
+
+      total = total * numero
+
+      contador = contador + 1
+    }
+
+    escreva("Total: " + total)
+  }
+}
+
+
+*/
