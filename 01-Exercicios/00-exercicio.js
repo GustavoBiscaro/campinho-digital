@@ -36,3 +36,33 @@ Abaixo temos um código que imprime o percentual de um valor. Preencha as lacuna
 - A variável "percentual" deve receber o valor numérico 10;
 - No final deve ser impressa uma mensagem informando o resultado do percentual do valor.
 */
+
+var nome = "Rodrigo"
+var idade = 20
+var habilitado = false
+
+var marca = "Samsung"; //String
+var valor = null; //objeto vazio
+var desconto; //Undefined
+var disponivel = 'true'; //String
+
+//Comprovações
+console.log("marca: " + typeof marca)
+
+console.log("valor: " + typeof valor)
+
+console.log("desconto: " + typeof desconto)
+
+console.log("disponivel: " + typeof disponivel)
+
+// Área
+base = 5
+altura = 8
+area = (base*altura)/2
+console.log("A área é de: " + area + "m²")
+
+// Percentual
+let total = 100;
+let percentual = 20;
+pctFinal = total * (percentual/100)
+console.log(`${percentual}% de ${total} é igual a: ${pctFinal}`)
